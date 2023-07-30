@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(uuv_gazebo_ros_plugins)
 
-# Specify C++11 standard
-add_definitions(-std=c++11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# # Specify C++11 standard
+# add_definitions(-std=c++11)
 
 find_package(catkin REQUIRED COMPONENTS
   uuv_gazebo_plugins

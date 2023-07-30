@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(uuv_sensor_ros_plugins)
 
-add_definitions(-std=c++11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# add_definitions(-std=c++11)
 
 # set(CMAKE_BUILD_TYPE RelWithDebInfo)
 
